@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------*/
+/*Missourian website redesign by Will Guldin*/ 
+/*------------------------------------------*/
+
+body {
+	min-width: 60em;
+}
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.container {
+	margin: 0, auto;
+	margin-left: 6%;
+	margin-right: 2%;
+	width: 93%;
+}
+
+/*NAV STYLE ----------------------------------------------------------------------------*/
+/*NAV STYLE ----------------------------------------------------------------------------*/
+/*NAV STYLE ----------------------------------------------------------------------------*/
+/*NAV STYLE ----------------------------------------------------------------------------*/
+
+.last {
+	border-bottom: 2px solid rgba(255,255,255,.7);
+}
+
+.slide {
+	position: relative;
+}
+
+.slide {
+	width: 120px;
+	position: absolute;
+	left: 0;
+	color: #FFF;
+}
+
+ul.inner {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 1.2em;
+
+	color: #FFF;
+	text-decoration: none;
+
+	width: 120px;
+	position: absolute;
+	left: 0;
+	
+	border-top: 2px solid rgba(255,255,255,.7);
+
+	list-style-type: none;
+}
+
+ul.inner > li {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+/*
+a.nav:hover {
+	background: #FFF;
+	color: #3856A4;
+} */
+
+section.bar {
+	background-color: #3856A4;
+	width: 40px;
+	height: 100%;
+	position: fixed;
+
+	-webkit-box-shadow: 0 2px 2px 2px #888888;
+	   -moz-box-shadow: 0 2px 2px 2px #888888;
+	        box-shadow: 0 2px 2px 2px #888888;
+}
+
+#logo {
+	width: 35px;
+	margin-top: -1em;
+	margin-left: .2em;
+	margin-bottom: -2em;
+}
